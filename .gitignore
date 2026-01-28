@@ -1,0 +1,37 @@
+# Compiled Java files
+*.class
+bin/
+out/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Gradle and Maven
+.gradle/
+target/
+build/
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Local environment
+.env
+.local
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*~
