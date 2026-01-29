@@ -1,3 +1,6 @@
+/*Henry Ngure */
+
+
 /**
  * A simple binary tree implementation for representing organization hierarchies.
  * 

@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-/**
- * Main interactive application for the hospital patient triage system.
+/**Eugene Chanzu and Donche Tilahun
+ * Medicore hospital patient triage system.
  * 
- * This system demonstrates practical use of Abstract Data Types (ADTs):
- * - Max Heap for priority-based patient queue
- * - Registry for patient management
- * - Binary Tree for organization structure
+ * Implements:
+ * 1 Max Heap for priority-based patient queue
+ * 2 Registry for patient management
+ * 3 Binary Tree for organization structure
  * 
  * Users can register patients, manage triage priorities, and view
  * the organizational hierarchy through different tree traversal methods.
@@ -56,7 +56,7 @@ public class SystemApp {
                 case "4": // list registered
                     System.out.print("Registered patients: "); registry.display();
                     break;
-                case "5": // peek
+                case "5": // see registered patients
                     System.out.println("Next in triage: " + triage.peek());
                     break;
                 case "6": // show departments
@@ -71,26 +71,26 @@ public class SystemApp {
         }
 
         sc.close();
-        System.out.println("Exiting system. Goodbye.");
+        System.out.println("Thank you for using Medicore Hospital System.");
     }
 
     /**
      * Displays the interactive menu options to the user.
      */
     private static void printMenu() {
-        System.out.println("--- Hospital System ---");
+        System.out.println("--- Medicore Hospital System ---");
         System.out.println("1) Register patient");
         System.out.println("2) Add registered patient to triage");
         System.out.println("3) Attend next patient");
         System.out.println("4) List registered patients");
-        System.out.println("5) Peek next triage patient");
+        System.out.println("5) See next triage patient");
         System.out.println("6) Show department traversals");
         System.out.println("0) Exit");
         System.out.print("Choice: ");
     }
 
     /**
-     * Builds a sample organization tree representing the hospital structure.
+     * Builds a sample organization tree that shows the hospital structure.
      *
      * @return an OrganizationTree with a sample hospital hierarchy
      */

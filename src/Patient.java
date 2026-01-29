@@ -1,6 +1,5 @@
-/**
+/** Aldinho Mwengu
  * Represents a patient in the hospital triage system.
- * 
  * Patients are ordered by severity (higher is more urgent) and then by arrival
  * time (earlier arrivals have priority if severities are equal).
  */

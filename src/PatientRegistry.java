@@ -1,9 +1,11 @@
+/*Joshua Muli
+ */
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
  * Manages patient registration in the hospital system.
- * 
  * Maintains a registry of patients with unique IDs and associated names,
  * preserving insertion order for consistent display.
  */
